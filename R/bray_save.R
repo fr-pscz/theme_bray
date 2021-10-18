@@ -6,6 +6,7 @@
 #' @param h height in inches (Default = \code{5})
 #' @param dpi density per inch (Default = \code{300})
 #' @return Nothing
+#' @export
 bray_save <- function(
   path,
   plot,
