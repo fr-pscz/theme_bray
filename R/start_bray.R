@@ -1,3 +1,10 @@
+#' Set default theme and change geom defaults
+#'
+#' @param maincolor HTML formatted color string for default objects like points, lines, ...(Default = \code{"#e8e7e3"})
+#' @param offcolor HTML formatted color string for secondary objects like gridlines, axes, ...(Default = \code{"#66696e"})
+#' @param gridh Bool flag for major horizontal gridlines (Default = \code{TRUE})
+#' @param gridv Bool flag for major vertical gridlines (Default = \code{FALSE})
+#' @return Nothing
 start_bray <- function(maincolor = "#e8e7e3",
                        offcolor = "#66696e",
                        gridh = TRUE,
