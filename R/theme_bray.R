@@ -5,6 +5,7 @@
 #' @param gridh Bool flag for major horizontal gridlines (Default = \code{TRUE})
 #' @param gridv Bool flag for major vertical gridlines (Default = \code{FALSE})
 #' @return Theme object
+#' @export
 #' @examples
 #' theme_bray(gridh = FALSE)
 theme_bray <- function(
