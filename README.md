@@ -3,6 +3,8 @@
 
 ## Description
 
+R package implementing a ggplot2 theme matching my LaTeX theme.
+
 
 ## Installation
 
