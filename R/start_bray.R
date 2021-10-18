@@ -5,6 +5,7 @@
 #' @param gridh Bool flag for major horizontal gridlines (Default = \code{TRUE})
 #' @param gridv Bool flag for major vertical gridlines (Default = \code{FALSE})
 #' @return Nothing
+#' @export
 start_bray <- function(maincolor = "#e8e7e3",
                        offcolor = "#66696e",
                        gridh = TRUE,
