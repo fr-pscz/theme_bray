@@ -36,3 +36,16 @@ end_bray()
 ### `ddplot`
 
 Bringing `DepthProc`'s `ddPlot` to the `ggplot2` ecosystem. In addition to enhanced theme capabilities, it supports point coloring depending on generating distribution.
+
+#### Example
+
+```r
+# Start theme without horizontal grid lines
+start_bray(gridh = FALSE)
+
+# Plot ddplot with two bivariate normals
+# X ~ Norm(0,10) colored in white
+# Y ~ Norm(0,1)  colored in gold
+p <- ddplot(X,Y,colory=TRUE)
+show(p)
+```
