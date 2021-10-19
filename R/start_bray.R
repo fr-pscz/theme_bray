@@ -15,4 +15,5 @@ start_bray <- function(maincolor = "#e8e7e3",
   ggplot2::update_geom_defaults("point", list(color = maincolor))
   ggplot2::update_geom_defaults("boxplot", list(color = maincolor, fill = "transparent"))
   ggplot2::update_geom_defaults("bar",     list(stat = "identity", fill = maincolor))
+  ggplot2::update_geom_defaults("abline",  list(color = offcolor))
   }
