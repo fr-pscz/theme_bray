@@ -15,7 +15,7 @@ devtools::install_github("fr-pscz/theme_bray")
 ## Dependencies
 
 * `ggplot2` for plots
-* `DepthProc` for ddplot
+* `DepthProc` for `ddplot`
 
 ## Usage
 
