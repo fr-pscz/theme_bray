@@ -49,3 +49,4 @@ start_bray(gridh = FALSE)
 p <- ddplot(X,Y,colory=TRUE)
 show(p)
 ```
+![ddplot](https://user-images.githubusercontent.com/21090470/137964781-7d356fb3-30e3-48a6-96bf-bdc35a4d9416.png)
